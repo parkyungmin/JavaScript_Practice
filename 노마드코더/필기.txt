@@ -1,0 +1,13 @@
+<Java Script> 사용 
+1. javascript - 웹페이지 따로 다운이 필요없음. 모든 브라우저에서 실행됨 (css, html)
+
+2. js + real naive => ios, 안드로이드에서 자바스크립트를 이용해 앱을 만들 수 있음
+
+3. electron - js,css,html을 통해 다운받을 수 있는 프로그램을 만들 수 있음(jscode)
+
+4. 백엔드 + 프론트엔드 => js로 다 가능 
+
+5. 3D관련 , 실시간 채팅 , 머신러닝 ,,,
+
+<자바스크립트 개념>
+1. 브라우저는 html을 열고, html이 css와 js를 가져온다

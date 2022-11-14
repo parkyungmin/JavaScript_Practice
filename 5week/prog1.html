@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let kor_score_arr = [100, 67, 50, 88, 96, 78, 90, 60, 85, 90];
+        let total = 0;
+        let average = 0;
+
+        for(i=0; i<10; i++){
+            total += kor_score_arr[i];
+        }
+
+        average = total / 10 ;
+
+        console.log ("국어 성적 총전은 " + total);
+        console.log ("국어 성적 평균은 " + average);
+    </script>
+</body>
+</html>

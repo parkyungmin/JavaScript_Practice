@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+     <input type = "text" id="inputbox" /> 
+     <input type = "button" id = "e_btn1" value = "입력">
+     <div id = "outbox" style = "width:300px; height:100px; border: 1px blue solid;"> </div>
+   
+   <script>
+       document.getElementById("e_btn1").onclick = function() {
+        let inbox = document.getElementById("inputbox").value;  //value로 값을 가져옴
+        document.getElementById("outbox").innerHTML =inbox;    //ui가 아니라 일반 태그
+    }
+      
+    </script>
+</body>
+</html>
